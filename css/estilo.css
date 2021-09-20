@@ -1,19 +1,41 @@
 body { background-color:#E59866; }
 .contenido {color: ##010101;}
-img {width:400px;
-height:300px;}
+.contenido {background-color: white}
+img {width:100px;
+height:100px;}
 p{ font-size: 20px}
 p{font-style: oblique;}
 sub{font-style: oblique;}
 sub{font-size: 20px}
 .contenido{font-size: 20px}
 .contenido{font-style: oblique;}
+#titulo{text-align: center;}
 #titulo{text-decoration: underline;}
 .titulo2{text-decoration: underline;}
-#titulo{text-align: left;}
+.titulo2{text-align: center;}
 .titulo3{text-decoration: underline;}
 .titulo4{text-decoration: underline;}
 .titulo3{font-size: 20px}
 .lista{font-size: 20px}
 .lista2{font-size: 20px}
 .titulo4{font-size: 20px}
+header{background-color: gray}
+nav{background-color: white}
+section{font-style: oblique;}
+section{background-color: #CCD1D1}
+section{font-size: 20px}
+aside{background-color: #E8E387}
+footer{font-size: 20px}
+footer{font-style: oblique;}
+footer{background-color: orange}
+
+
+section{float: right;
+width: 50%;
+height: 842px;
+border: 2px  black;}
+nav{float: left;
+height: 50%}
+aside{width: 50%}
+.wicono{position: fixed;
+}
