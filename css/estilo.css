@@ -11,10 +11,20 @@ sub{font-size: 20px}
 .contenido{font-style: oblique;}
 #titulo{text-align: center;}
 #titulo{text-decoration: underline;}
+#titulo:hover {
+  font-size: 50px;
+  color:black;
+  font-family: cursive;
+  font-weight: 700;
+}
 .titulo2{text-decoration: underline;}
+.titulo2:hover{ font-size: 70px;
+background-color:010101 }
 .titulo2{text-align: center;}
 .titulo3{text-decoration: underline;}
+.titulo3:hover { font-size: 70px}
 .titulo4{text-decoration: underline;}
+.titulo4:hover {font-size: 80px;}
 .titulo3{font-size: 20px}
 .lista{font-size: 20px}
 .lista2{font-size: 20px}
@@ -39,3 +49,10 @@ height: 50%}
 aside{width: 50%}
 .wicono{position: fixed;
 }
+a:hover{background-color: #CDD77B;
+font-size: 30px;
+color:black;
+font-family: cursive;
+font-weight: 400;}
+.wicono:hover{background-color:white;
+font-size: 80px;}

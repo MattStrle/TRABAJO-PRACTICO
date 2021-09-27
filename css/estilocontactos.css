@@ -1,5 +1,33 @@
 img{ width: 50%;
 }
-section{width: 50%;
-background-color: #F58608;
+section:hover{width: 50%;
+  height: 50%;
+background-color: gray;
 }
+body {background-color: #A0F0CD}
+a:visited{
+  color: red
+
+}
+a:hover{font-size: 50px;}
+a{font-size: 30px;
+font-style: oblique;}
+a:hover{
+  background-color: #CDD77B;
+  font-size: 30px;
+  color:black;
+  font-family: cursive;
+  font-weight: 400;
+}
+img:hover{width: 80%;}
+h1:hover{background-color: Orange;
+font-size: 50px}
+h2:hover{background-color: #5F77EE;
+font-size: 50px;}
+
+section::before{content:Queremos conocerte;}
+button:hover{
+  background-color: #DCF510
+}
+
+form{background-color: #F9B067}
