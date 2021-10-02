@@ -1,54 +1,69 @@
+@font-face {
+  font-family:"LetraAntigua";
+  src: url("../fuentes/OLDENGL.TTF")
+format("truetype");
+
+font-family: "LetraNegrita";
+src: url("../fuentes/STENCIL.TTF")
+format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;800&display=swap');
+
+
+
+
 body { background-color:#E59866; }
 .contenido {color: ##010101;}
 .contenido {background-color: white}
-img {width:100px;
-height:100px;}
-p{ font-size: 20px}
+.wicono{position: fixed;
+width: 100px;}
+img{width: 100px;}
+p{ font-size: 2rem;
+font-family:"LetraAntigua"}
 p{font-style: oblique;}
 sub{font-style: oblique;}
-sub{font-size: 20px}
+sub{font-size:2rem;}
 .contenido{font-size: 20px}
 .contenido{font-style: oblique;}
 #titulo{text-align: center;}
 #titulo{text-decoration: underline;}
-#titulo:hover {
-  font-size: 50px;
-  color:black;
-  font-family: cursive;
-  font-weight: 700;
+#titulo:{font-family:"LetraNegrita";}
+#Bifee{width: 48vw; align:center;
 }
-.titulo2{text-decoration: underline;}
-.titulo2:hover{ font-size: 70px;
-background-color:010101 }
-.titulo2{text-align: center;}
+
+
+.titulo2{text-decoration: underline;
+font-family: "LetraNegrita";}
+.titulo2{text-align: center;
+font-size: 2rem;}
 .titulo3{text-decoration: underline;}
-.titulo3:hover { font-size: 70px}
+.titulo3:hover { font-size: 4rem;}
 .titulo4{text-decoration: underline;}
-.titulo4:hover {font-size: 80px;}
-.titulo3{font-size: 20px}
-.lista{font-size: 20px}
-.lista2{font-size: 20px}
-.titulo4{font-size: 20px}
-header{background-color: gray}
+.titulo4:hover {font-size: 4rem;}
+.titulo3{font-size: 2rem;}
+.lista{font-size: 2rem;}
+.lista2{font-size: 2rem;}
+.titulo4{font-size: 2rem;}
+header{background-color: gray;}
 nav{background-color: white}
 section{font-style: oblique;}
 section{background-color: #CCD1D1}
-section{font-size: 20px}
-aside{background-color: #E8E387}
-footer{font-size: 20px}
+section{font-size: 2rem;}
+aside{background-color: #E8E387;
+font-family: 'Gemunu Libre', sans-serif;}
+footer{font-size: 2em;}
 footer{font-style: oblique;}
 footer{background-color: orange}
 
 
 section{float: right;
 width: 50%;
-height: 842px;
-border: 2px  black;}
+height: 89rem;
+border: 2em  black;}
 nav{float: left;
 height: 50%}
-aside{width: 50%}
-.wicono{position: fixed;
-}
+aside{width: 89rem;}
+
 a:hover{background-color: #CDD77B;
 font-size: 30px;
 color:black;
