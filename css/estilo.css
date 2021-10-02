@@ -1,13 +1,16 @@
 @font-face {
   font-family:"LetraAntigua";
-  src: url("../fuentes/OLDENGL.TTF")
+  src: url("../fuentes/BAUHS93.TTF")
 format("truetype");
 
-font-family: "LetraNegrita";
-src: url("../fuentes/STENCIL.TTF")
-format("truetype");
+
+
+
 }
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Lobster+Two&display=swap');
+
+
 
 
 
@@ -17,25 +20,25 @@ body { background-color:#E59866; }
 .contenido {background-color: white}
 .wicono{position: fixed;
 width: 100px;}
-img{width: 100px;}
+img{width: 7rem;}
 p{ font-size: 2rem;
-font-family:"LetraAntigua"}
-p{font-style: oblique;}
+font-family:"LetraAntigua";}
 sub{font-style: oblique;}
 sub{font-size:2rem;}
 .contenido{font-size: 20px}
 .contenido{font-style: oblique;}
 #titulo{text-align: center;}
 #titulo{text-decoration: underline;}
-#titulo:{font-family:"LetraNegrita";}
 #Bifee{width: 48vw; align:center;
 }
-
-
-.titulo2{text-decoration: underline;
-font-family: "LetraNegrita";}
+.Sub{font-family: 'Lobster', cursive;}
+.titulo{font-family: 'Courgette', cursive;
+font-family: 'Lobster', cursive;
+text-align: center;}
+.titulo2{text-decoration: underline;}
 .titulo2{text-align: center;
-font-size: 2rem;}
+font-size: 2rem;
+font-family: 'Lobster', cursive;}
 .titulo3{text-decoration: underline;}
 .titulo3:hover { font-size: 4rem;}
 .titulo4{text-decoration: underline;}
@@ -45,12 +48,14 @@ font-size: 2rem;}
 .lista2{font-size: 2rem;}
 .titulo4{font-size: 2rem;}
 header{background-color: gray;}
-nav{background-color: white}
-section{font-style: oblique;}
+nav{background-color: white;
+font-family:"LetraAntigua";}
+section{font-family: 'Courgette', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;}
 section{background-color: #CCD1D1}
 section{font-size: 2rem;}
-aside{background-color: #E8E387;
-font-family: 'Gemunu Libre', sans-serif;}
+aside{background-color: #E8E387;}
 footer{font-size: 2em;}
 footer{font-style: oblique;}
 footer{background-color: orange}
