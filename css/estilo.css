@@ -4,18 +4,12 @@
 format("truetype");
 
 
-
-
 }
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Lobster+Two&display=swap');
 
 
-
-
-
-
-body { background-color:#E59866; }
+body { background-color:#83F0AC; }
 .contenido {color: ##010101;}
 .contenido {background-color: white}
 .wicono{position: fixed;
@@ -29,9 +23,8 @@ sub{font-size:2rem;}
 .contenido{font-style: oblique;}
 #titulo{text-align: center;}
 #titulo{text-decoration: underline;}
-#Bifee{width: 48vw; align:center;
-}
-.Sub{font-family: 'Lobster', cursive;}
+#Bifee{width: 40vw; align:center;}
+
 .titulo{font-family: 'Courgette', cursive;
 font-family: 'Lobster', cursive;
 text-align: center;}
@@ -47,20 +40,59 @@ font-family: 'Lobster', cursive;}
 .lista{font-size: 2rem;}
 .lista2{font-size: 2rem;}
 .titulo4{font-size: 2rem;}
-header{background-color: gray;}
+header{background-color: gray;
+border: 1px solid lightcoral;
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;}
 nav{background-color: white;
-font-family:"LetraAntigua";}
+font-family:"LetraAntigua";
+border: 1px solid lightcoral;
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;}
 section{font-family: 'Courgette', cursive;
 font-family: 'Lobster', cursive;
 font-family: 'Lobster Two', cursive;}
 section{background-color: #CCD1D1}
-section{font-size: 2rem;}
-aside{background-color: #E8E387;}
-footer{font-size: 2em;}
+section{font-size: 2rem;
+  border: 1px solid lightcoral;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;}
+}
+aside{background-color: #E8E387;
+  border: 1px solid lightcoral;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;}
+footer{font-size: 2em;
+  border: 1px solid lightcoral;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: left;}
 footer{font-style: oblique;}
 footer{background-color: orange}
-
-
+@media (max-width:575px) {
+header{background-color: red;}
+}
+@media (max-width:575px) {
+#Bifee{display:none;}
+}
+@media (max-width:575px) {
+aside{background-color: red;}
+}
+#Criolla{display:none;}
+@media (max-width:575px) {
+  #Criolla{display:block;}
+}
+#Criolla{width: 400px;}
+}
 section{float: right;
 width: 50%;
 height: 89rem;
