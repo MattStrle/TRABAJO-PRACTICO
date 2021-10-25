@@ -9,9 +9,9 @@ format("truetype");
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Lobster+Two&display=swap');
 
 
-body { background-color:#83F0AC; }
+body { background-color:#5ADD8B; }
 .contenido {color: ##010101;}
-.contenido {background-color: white;
+.contenido {background-color: 5ADD8B;
 font-size: 80px;}
 p{ font-size: 2rem;
 font-family:"LetraAntigua";}
@@ -38,13 +38,13 @@ font-family: 'Lobster', cursive;}
 .lista{font-size: 2rem;}
 .lista2{font-size: 2rem;}
 .titulo4{font-size: 2rem;}
-header{background-color: gray;
+header{background-color: #E7F37F;
 border: 1px solid lightcoral;
 display:flex;
 justify-content: space-between;
 flex-wrap: wrap;
 align-items: center;}
-nav{background-color: white;
+nav{background-color: #5ADD8B;
 font-family:"LetraAntigua";
 border: 1px solid lightcoral;
 display:flex;
@@ -54,7 +54,7 @@ align-items: center;}
 section{font-family: 'Courgette', cursive;
 font-family: 'Lobster', cursive;
 font-family: 'Lobster Two', cursive;}
-section{background-color: #CCD1D1}
+section{background-color: #8DA6EC}
 section{font-size: 2rem;
   border: 1px solid lightcoral;
   display:flex;
@@ -62,7 +62,7 @@ section{font-size: 2rem;
   flex-wrap: wrap;
   align-items: center;}
 }
-aside{background-color: #E8E387;
+aside{background-color: #F3A3B7;
   border: 1px solid lightcoral;
   display:flex;
   justify-content: space-between;
