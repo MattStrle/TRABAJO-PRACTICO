@@ -11,10 +11,8 @@ format("truetype");
 
 body { background-color:#83F0AC; }
 .contenido {color: ##010101;}
-.contenido {background-color: white}
-.wicono{position: fixed;
-width: 100px;}
-img{width: 7rem;}
+.contenido {background-color: white;
+font-size: 80px;}
 p{ font-size: 2rem;
 font-family:"LetraAntigua";}
 sub{font-style: oblique;}
@@ -24,7 +22,7 @@ sub{font-size:2rem;}
 #titulo{text-align: center;}
 #titulo{text-decoration: underline;}
 #Bifee{width: 40vw; align:center;}
-
+.Wicono{width: 7rem;}
 .titulo{font-family: 'Courgette', cursive;
 font-family: 'Lobster', cursive;
 text-align: center;}
@@ -106,5 +104,3 @@ font-size: 30px;
 color:black;
 font-family: cursive;
 font-weight: 400;}
-.wicono:hover{background-color:white;
-font-size: 80px;}
