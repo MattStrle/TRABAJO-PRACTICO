@@ -11,7 +11,7 @@ format("truetype");
 
 body { background-color:#5ADD8B; }
 .contenido {color: ##010101;}
-.contenido {background-color: 5ADD8B;
+.contenido {background-color: #5ADD8B;
 font-size: 80px;}
 p{ font-size: 2rem;
 font-family:"LetraAntigua";}
@@ -38,7 +38,7 @@ font-family: 'Lobster', cursive;}
 .lista{font-size: 2rem;}
 .lista2{font-size: 2rem;}
 .titulo4{font-size: 2rem;}
-header{background-color: #E7F37F;
+header{background-color:#E7F37F;
 border: 1px solid lightcoral;
 display:flex;
 justify-content: space-between;
@@ -54,7 +54,7 @@ align-items: center;}
 section{font-family: 'Courgette', cursive;
 font-family: 'Lobster', cursive;
 font-family: 'Lobster Two', cursive;}
-section{background-color: #8DA6EC}
+section{background-color:#8DA6EC; }
 section{font-size: 2rem;
   border: 1px solid lightcoral;
   display:flex;
